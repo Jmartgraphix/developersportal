@@ -454,6 +454,12 @@ and (max-device-width : 414px)
 and (orientation : portrait) 
 and (-webkit-device-pixel-ratio : 3) {
 
+    .ifmdevportal-banner-responsive-bg-image {
+        background-image:none;
+        background-color: #342c37;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
 
     #robotchar {
         margin-left: -20px;
