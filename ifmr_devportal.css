@@ -450,7 +450,8 @@ a.icon.windowslogo{
 }
 
 @media only screen 
-and (max-device-width : 376px)
+and (max-device-width : 476px)
+    
 and (orientation : portrait) 
 and (-webkit-device-pixel-ratio : 3) {
 
