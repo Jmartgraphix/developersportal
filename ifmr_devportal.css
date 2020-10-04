@@ -449,3 +449,51 @@ a.icon.windowslogo{
 
 }
     
+@media screen and (max-width: 376px) and (-webkit-device-pixel-ratio : 3) {
+
+    #robotchar {
+        margin-left: -20px;
+    }
+
+    #githublogo {
+        float: left;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    a.icon.roslogo {
+        margin-top: -25%;
+        background-position: 0 -210px;
+    }
+
+    .softwarelinks {
+        flex-wrap: wrap;
+        justify-content: center;               
+    }
+
+    .section {
+        padding: 20px 60px 0px 60px;
+    }
+
+    .ad {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .iconholder {
+        margin-bottom: 15%;
+    }
+
+    .home-bullets li {
+        margin-left: -12%;
+        padding-left: 43%;
+    }
+
+    .home-bullets li:before {
+        width: 80px;
+        height: 92px;
+    }
+
+}
+
