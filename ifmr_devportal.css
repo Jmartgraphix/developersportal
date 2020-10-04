@@ -448,8 +448,12 @@ a.icon.windowslogo{
     }
 
 }
-    
-@media screen and (max-width: 376px) and (-webkit-device-pixel-ratio : 3) {
+
+@media only screen 
+and (max-device-width : 376px)
+and (orientation : portrait) 
+and (-webkit-device-pixel-ratio : 3) {
+
 
     #robotchar {
         margin-left: -20px;
