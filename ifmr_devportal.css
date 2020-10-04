@@ -453,7 +453,7 @@ a.icon.windowslogo{
 and (max-device-width : 476px)
     
 and (orientation : portrait) 
-and (-webkit-device-pixel-ratio : 3) {
+and (-webkit-device-pixel-ratio : 2) {
 
 
     #robotchar {
