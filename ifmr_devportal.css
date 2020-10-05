@@ -48,9 +48,8 @@ body {
 .ifmdevportal-banner-responsive-bg-image {
     position: relative;
     z-index: 0;   
-    padding: 80px 80px 135px;
+    padding: 4% 4% 4% 6%;
     background-image: url(assets/Banner-o3r-1800x813.jpg);
-    background-position: 0 -45px;
     background-repeat: no-repeat;
 }
 
@@ -74,6 +73,7 @@ body {
     width: 40%;
     font-size: 4em;
     font-weight: 550;
+    line-height: .95em;
     color: #fff;
 }
 
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5 {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin-top: 0;
     display: block;
 }
 
@@ -228,22 +229,6 @@ a.icon.windowslogo{
     background-position: 0 100%;
 } 
 
-/* .footer {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    background: #282a2d;
-    width: 100%;
-    text-align: left;
-}
-
-.footer.main {
-    margin: 0 auto;
-    max-width: 1800px;
-    padding: 80px 180px;
-} */
-
 
 /* Media Queries for Responsive Design */
 
@@ -257,8 +242,7 @@ a.icon.windowslogo{
 @media screen and (max-width: 1440px) {
 .ifmdevportal-banner-responsive-bg-image {
     background-image: url(assets/Banner-o3r-1440x650.jpg);
-    padding-bottom: 96px;
-    background-position: 0 0;}
+    }
 
     .ad{
         margin-left: -20px;
@@ -285,11 +269,12 @@ a.icon.windowslogo{
 @media screen and (max-width: 1024px){
     .ifmdevportal-banner-responsive-bg-image {
     background-image: url(assets/Banner-o3r-1024x462.jpg);
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     background-position: 0 0;}
 
-    .section{
-        padding: 60px;
+    .section {
+        padding: 4% 4% 4% 4%;
     }
 
     .masthead {
@@ -322,7 +307,7 @@ a.icon.windowslogo{
     }
 
     .home-bullets li {
-        margin-left: 8%;
+        margin-left: 4%;
         margin-bottom: 50px;
         padding-left: 140px;
     }
@@ -449,6 +434,9 @@ a.icon.windowslogo{
 
 }
 
+
+/* iphone X in portrait mode */
+
 @media only screen 
 and (max-device-width : 414px)
 and (orientation : portrait) 
@@ -507,3 +495,18 @@ and (-webkit-device-pixel-ratio : 3) {
 
 }
 
+
+/* iphone X in portrait mode */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+    
+    .ifmdevportal-banner-responsive-bg-image {
+        background-image: url(assets/Banner-o3r-1024x462.jpg);
+        background-color: #342c37;
+        padding: 4%;
+    }
+
+}
