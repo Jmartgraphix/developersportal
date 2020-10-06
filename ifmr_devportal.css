@@ -249,52 +249,61 @@ a.icon.windowslogo{
     }
 }
 
-
-
-@media screen and (max-width: 1078px){
-
-    .iconholder{
-        padding: 0 8px 0px 8px;
-    }
-
+@media screen and (max-width: 1264px) {
     .ifmdevportal-banner-responsive-bg-image {
-        padding-top: 30px;
-        padding-bottom: 50px;
-        background-position: left -220px bottom -60px;
-    }
-}
+        padding: 2% 0% 3% 4%;
+        }
+    
+        .masthead {
+            width: 50%;
+            font-size: 2.5em;
+        }
 
+        #mastheadlogo {
+            width: 125px;
+        }
+
+        a.button {
+            font-size: 1rem;
+        }
+
+        .home-bullets li {
+            margin-left: 8%;
+            margin-bottom: 50px;
+            padding-left: 140px;
+        }
+
+        .home-bullets li:before {
+            width: 100px;
+            height: 112px;
+        }
+
+        .section {
+            padding-top: 5%;
+        }
+
+        .ad {
+            padding: 2%;
+        }
+
+    }
+    
 
 
 @media screen and (max-width: 1024px){
     .ifmdevportal-banner-responsive-bg-image {
     background-image: url(assets/Banner-o3r-1024x462.jpg);
-    padding-top: 20px;
-    padding-bottom: 30px;
-    background-position: 0 0;}
-
-    .section {
-        padding: 4% 4% 4% 4%;
+    padding: 4% 0% 4% 8%;
     }
 
-    .masthead {
-    width: 50%;
-    font-size: 2.5em;
+    .section {
+        padding: 4%;
     }
 
     h2 {
         font-size: 2.2em;
         letter-spacing: -.5px;
         }
-    
-
-    #mastheadlogo {
-    width: 125px;
-    }
-
-    a.button{
-    font-size: 1rem;
-    }
 
     .iconholder{
         padding: 0 20px;
@@ -308,13 +317,6 @@ a.icon.windowslogo{
 
     .home-bullets li {
         margin-left: 4%;
-        margin-bottom: 50px;
-        padding-left: 140px;
-    }
-
-    .home-bullets li:before {
-        width: 100px;
-        height: 112px;
     }
 
     #githublogo{
@@ -332,29 +334,25 @@ a.icon.windowslogo{
 
     #orangebar{ height: 35px;}
 
-    .ifmdevportal-banner-responsive-bg-image {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        background-position: left -80px bottom -90px top -20px;
-    }
 
     .home-bullets li {
         margin-left: 2%;
+    }    
+
+    .ad {
+        padding: 0%;
     }
-
-    
-}
 }
 
 
 
-@media screen and (max-width: 520px){
+
+@media screen and (max-width: 681px){
 
     .ifmdevportal-banner-responsive-bg-image {
         background-image:none;
         background-color: #342c37;
-        padding-bottom: 50px;
-        padding-top: 40px;
+        padding: 5% 5% 5% 10%;
     }
     
     .masthead {
@@ -382,11 +380,31 @@ a.icon.windowslogo{
         margin-top: 40px;
     }
 
+    .softwarelinks {
+        flex-wrap: wrap;
+        justify-content: center;               
+    }
+
+    .section {
+        padding: 40px 60px 40px 60px;
+        overflow-y: hidden;
+    } 
+
+    .ad {
+        padding: 8% 4% 4% 4%;
+        display: block;
+    }
+
+    #githublogo {
+        padding: 0%;
+        float: left;
+    }
+
 }
 
 
 
-@media screen and (max-width: 376px){
+/* @media screen and (max-width: 376px){
 
     #robotchar {
         margin-left: -20px;
@@ -432,7 +450,7 @@ a.icon.windowslogo{
         height: 92px;
     }
 
-}
+} */
 
 
 /* iphone X in portrait mode */
