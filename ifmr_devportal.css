@@ -391,23 +391,13 @@ a.icon.windowslogo{
     } 
 
     .ad {
-        padding: 8% 4% 4% 4%;
+        /* padding: 8% 4% 4% 4%; */
         display: block;
     }
 
     #githublogo {
         padding: 0%;
         float: left;
-    }
-
-}
-
-
-@media screen and (max-width: 376px){
-
-    .ad {
-        display: block;
-        padding:0%;
     }
 
 }
