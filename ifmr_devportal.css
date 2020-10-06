@@ -403,53 +403,14 @@ a.icon.windowslogo{
 }
 
 
-
-/* @media screen and (max-width: 376px){
-
-    #robotchar {
-        margin-left: -20px;
-    }
-
-    #githublogo {
-        float: left;
-        padding-top: 10px;
-        padding-left: 0;
-    }
-
-    a.icon.roslogo {
-        margin-top: -25%;
-        background-position: 0 -210px;
-    }
-
-    .softwarelinks {
-        flex-wrap: wrap;
-        justify-content: center;               
-    }
-
-    .section {
-        padding: 20px 60px 0px 60px;
-    }
+@media screen and (max-width: 376px){
 
     .ad {
         display: block;
         padding:0%;
     }
 
-    .iconholder {
-        margin-bottom: 15%;
-    }
-
-    .home-bullets li {
-        margin-left: -12%;
-        padding-left: 43%;
-    }
-
-    .home-bullets li:before {
-        width: 80px;
-        height: 92px;
-    }
-
-} */
+}
 
 
 /* iphone X in portrait mode */
